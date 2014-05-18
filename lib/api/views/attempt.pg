@@ -1,5 +1,0 @@
-node id: submission.key
-node status: 'saved'
-node language: submission.language
-node exercise: submission.slug
-node submission_path: "/submissions/#{submission.key}"

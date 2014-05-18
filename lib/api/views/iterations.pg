@@ -1,7 +1,0 @@
-collection assignments: submissions do |submission|
-  attributes :slug
-  node track: submission.language
-  node :files do
-    node submission.filename => submission.code
-  end
-end
